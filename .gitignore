@@ -1,0 +1,65 @@
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables
+.env.local
+.env.*.local
+.env
+.env.*.secret
+
+# Testing
+coverage
+/.nyc_output
+
+# Vercel deployment
+.vercel
+.vscode
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings and caches
+.idea/
+.vscode/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Debug files
+*.log
+*.tgz
+.yarn-integrity
+
+# Typescript cache
+*.tsbuildinfo
+
+# Other IDE-specific
+*.iml
+*.ipr
+*.iws
+
+# Mac system files
+*.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Security
+*.pem
+*.key
+
+# Optional: Ignoring lockfiles if you prefer one package manager over another
+package-lock.json
+yarn.lock
